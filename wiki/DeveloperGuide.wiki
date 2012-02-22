@@ -95,7 +95,7 @@ Return string including the last error messages from config parser engine.
 Get the number of affected rows by the last AQL commands.
 
 
-== QueryLanguageInterfaceReference ==
+== Query-Language-Interface-Reference ==
 
 === BasicSyntax ===
 
@@ -189,7 +189,7 @@ limit 10
 limit 10,10
 }}}
 
-== FunctionBasedInterfaceReference ==
+== Function-Based-Interface-Reference ==
 
 Function based interface inheriting **aql_confparser.php**. that advanced class, for the beginnger we suggest try to Query Language Interface.
 
