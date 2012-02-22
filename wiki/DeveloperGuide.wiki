@@ -25,7 +25,7 @@ $a->query(....);
 ?>
 }}}
 
-== CommandLine Interface ==
+== CommandLine ==
 
 commandline interface looks like mysql monitor.
 
