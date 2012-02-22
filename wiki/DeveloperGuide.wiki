@@ -2,7 +2,7 @@
 #labels Featured,Phase-Implementation
 #sidebar DeveloperGuide_sidebar
 
-= GUIDE =
+= DeveloperGuide =
 
 == Installation ==
 
