@@ -1,2 +1,2 @@
 * [DeveloperGuide]
-  * [Installation|DeveloperGuide]
+  * [DeveloperGuide#Installation]
