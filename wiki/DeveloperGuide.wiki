@@ -5,9 +5,10 @@
 
 == Installation ==
 
-{{{
 Coping inc/ to your script including folder.
 Add one line at header of your script within aql.php, example:
+
+{{{
 
 <?
 require("../inc/aql.php");
@@ -26,12 +27,15 @@ $a->query(....);
 == CommandLine Interface ==
 
 commandline interface looks like mysql monitor.
-{{{
+
 in aql source folder:
+{{{
 chmod +x aqlcli.php
 ./aqlcli.php <config_base_path>
+}}}
 
 example:
+{{{
 ./aqlcli.php /etc/asterisk/
 
 Welcome to the AQL command line interface.  Commands end pass Enter key
@@ -39,10 +43,10 @@ Your AQL Library version : 1.0 ,   AQL_Confparser Version : 0.3
 
 type 'help' for help.
 
-AQLcli>select * from sip.conf (<-type this)
+AQLcli>select * from sip.conf
+}}}
 
 you will see output data
-}}}
 
 
 == Methods ==
@@ -61,7 +65,7 @@ set An options to AQL object.
 
 Query AQL statements to config file and get results.
 
-References with query language in detail please see [[#Query Language Interface Reference|Query Language Interface Reference]]
+References with query language in detail please see [Query Language Interface Reference]
 
 === $AQL->commit($filename) ===
 
@@ -88,6 +92,8 @@ Return string including the last error messages from config parser engine.
 === $AQL->get_affected_rows() ===
 
 Get the number of affected rows by the last AQL commands.
+
+---
 
 == Query Language Interface Reference ==
 
