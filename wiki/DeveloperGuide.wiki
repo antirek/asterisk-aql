@@ -65,7 +65,7 @@ set An options to AQL object.
 
 Query AQL statements to config file and get results.
 
-References with query language in detail please see Query Language Interface Reference
+References with query language in detail please see *Query Language Interface Reference*
 
 === $AQL->commit($filename) ===
 
