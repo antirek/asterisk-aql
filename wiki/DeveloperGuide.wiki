@@ -1,5 +1,6 @@
 #summary AQL HOW TO
 #labels Featured,Phase-Implementation
+#sidebar TableOfContents
 
 = GUIDE =
 
