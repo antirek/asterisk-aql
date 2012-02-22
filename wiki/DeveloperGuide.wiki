@@ -65,7 +65,7 @@ set An options to AQL object.
 
 Query AQL statements to config file and get results.
 
-References with query language in detail please see [Query Language Interface Reference]
+References with query language in detail please see Query Language Interface Reference
 
 === $AQL->commit($filename) ===
 
@@ -93,7 +93,6 @@ Return string including the last error messages from config parser engine.
 
 Get the number of affected rows by the last AQL commands.
 
----
 
 == Query Language Interface Reference ==
 
@@ -258,4 +257,3 @@ drop section with section name.
 = AUTHOR =
 
 Sun bing <hoowa.sun@gmail.com>.
-
