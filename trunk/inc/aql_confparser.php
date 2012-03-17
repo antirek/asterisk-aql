@@ -1,4 +1,4 @@
-<?
+<?php
 /*
 #
 #       AQL -- Astconf Query Language
@@ -33,7 +33,7 @@
 
 class aql_confparser {
     
-    const VERSION='1.0';
+    const VERSION='1.1';
     const AUTHOR='Sun Bing <hoowa.sun@freeiris.org>';
     
     // reload and reparse config file
