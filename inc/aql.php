@@ -1,4 +1,4 @@
-<?
+<?php
 /*
 #
 #       AQL -- Astconf Query Language
@@ -36,7 +36,7 @@ function __autoload($file) {
     
 class aql extends aql_confparser
 {
-    const VERSION='1.5';
+    const VERSION='1.6';
     const AUTHOR='Sun Bing <hoowa.sun@freeiris.org>';
     
     /* 
