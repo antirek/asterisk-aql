@@ -36,7 +36,7 @@ function __autoload($file) {
     
 class aql extends aql_confparser
 {
-    const VERSION='1.6';
+    const VERSION='1.7';
     const AUTHOR='Sun Bing <hoowa.sun@freeiris.org>';
     
     /* 
@@ -825,7 +825,8 @@ class aql extends aql_confparser
                         $each_list['value']=$each[$i].$each_list['value'];
                         continue;
                     }
-                } elseif ($each[$i] == $brackets && $each[$i-1] == "\\") { // when match brackets and match splash ingore
+                // fix add $i != 0 because last loop $i-1 may be -1
+                } elseif ($each[$i] == $brackets && $i != 0 && $each[$i-1] == "\\") { // when match brackets and match splash ingore
                     $each_list['value']=$each[$i].$each_list['value'];
                     continue;
                 } elseif ($each[$i] == " " && $brackets != null) {  // when match " " but in brackets ingore
