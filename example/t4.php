@@ -1,4 +1,4 @@
-<?
+<?php
 /*
  * This is Test demo script for AQL
 */
@@ -14,7 +14,7 @@ if (!$setok) {
 
 // very simple test query
 $query = <<< EOF
-update t4.conf set call-limit=1 where section>=9990 and section <=9993 limit 1,2
+update t4.conf set 'call-limit'=1 where section>=9990 and section <=9993 limit 1,2
 EOF;
 $result = $a->query($query);
 

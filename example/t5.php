@@ -1,4 +1,4 @@
-<?
+<?php
 /*
  * This is Test demo script for AQL
 */
