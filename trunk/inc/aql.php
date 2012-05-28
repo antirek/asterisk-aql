@@ -36,8 +36,8 @@ function __autoload($file) {
     
 class aql extends aql_confparser
 {
-    const VERSION='1.7';
-    const AUTHOR='Sun Bing <hoowa.sun@freeiris.org>';
+    const VERSION='1.8';
+    const AUTHOR='Sun Bing <hoowa.sun@gmail.com>';
     
     /* 
      * base of filename directory, aql where found conf file from 

@@ -33,8 +33,8 @@
 
 class aql_confparser {
     
-    const VERSION='1.1';
-    const AUTHOR='Sun Bing <hoowa.sun@freeiris.org>';
+    const VERSION='1.2';
+    const AUTHOR='Sun Bing <hoowa.sun@gmail.com>';
     
     // reload and reparse config file
     public $reload_when_save = true;
